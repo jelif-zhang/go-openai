@@ -274,7 +274,7 @@ type ChatCompletionRequest struct {
 	// Metadata to store with the completion.
 	Metadata         map[string]string `json:"metadata,omitempty"`
 	IncludeReasoning bool              `json:"include_reasoning,omitempty"`
-	Think map[string]any `json:"think,omitempty"`
+	Thinking map[string]any `json:"thinking,omitempty"`
 }
 
 type StreamOptions struct {
